@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-import math
+from math import pi
 
 
 #  Абстрактный класс Shape
@@ -27,7 +27,7 @@ class Circle(Shape):  #  Наследование от Shape
 
 
     def area(self):  #  Переопределение метода `area` для расчета площади
-        return math.pi * self.radius ** 2
+        return pi * self.radius ** 2
 
 
 #  Проверка
